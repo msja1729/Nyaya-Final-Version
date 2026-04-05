@@ -1,0 +1,16 @@
+command:
+  - python
+  - app/main.py
+env:
+  - name: LLM_OPENAI_BASE_URL
+    value: https://dbc-9bd916ec-8ed7.cloud.databricks.com/serving-endpoints
+  - name: LLM_MODEL
+    value: databricks-llama-4-maverick
+  - name: NYAYA_RETRIEVAL_BACKEND
+    value: faiss
+  - name: NYAYA_INDEX_DIR
+    value: /Volumes/workspace/india_legal/legal_files/nyaya_index
+  - name: SARVAM_API_KEY
+    value: sk_25v5qpcg_OqEAxE6a6Cspy8gq54AxDB6X
+  - name: SARVAM_STT_MODE
+    value: translate

@@ -1,0 +1,11 @@
+# Requirements for Databricks Apps deployment
+# cache-bust: 2026-03-22
+gradio~=4.44.0
+gradio-client==1.3.0
+huggingface-hub~=0.35.3
+pandas~=2.2.3
+databricks-sdk
+# Install all extras needed for the app
+-e ".[rag,rag_embed,llm_openai,features,app]"
+
+reportlab>=4.0.0
