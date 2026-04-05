@@ -106,3 +106,6 @@ pytest tests/ -v
 | Text-to-speech | Sarvam Bulbul |
 | App framework | Gradio 4.44 on Databricks Apps |
 | Data platform | Databricks (Unity Catalog, Volumes, Apps) |
+
+
+## Presentation Slides Link : https://drive.google.com/file/d/1gG_evWi67ySjcERPTlIjS774Q16t3br8/view?usp=sharing
